@@ -39,6 +39,7 @@ Issues = "https://github.com/marin-m/SongRec/issues"
 [project.scripts]
 songrec-audio-file-to-fingerprint = "songrec.utils.audio_file_to_fingerprint:main"
 songrec-audio-file-to-recognized-song = "songrec.utils.audio_file_to_recognized_song:main"
+songrec-fingerprint-to-csv = "songrec.utils.fingerprint_to_csv:main"
 songrec-fingerprint-to-json = "songrec.utils.fingerprint_to_json:main"
 songrec-fingerprint-to-recognized-song = "songrec.utils.fingerprint_to_recognized_song:main"
 songrec-fingerprint-to-sound = "songrec.utils.fingerprint_to_sound:main"

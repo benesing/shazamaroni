@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- encoding: Utf-8 -*-
-from os.path import dirname, realpath
+from os.path import dirname, realpath, isfile
 from argparse import ArgumentParser
 from json import dumps
 
@@ -27,13 +27,23 @@ def main():
 
     args.add_argument(
         'fingerprint',
-        help='The data-URI Shazam fingerprint '
-        + 'to convert into readable JSON.',
+        nargs='?',
+        default='-',
+        help='A .sig file containing the data URI, the data URI itself, '
+        + 'or "-" / omitted to read it from standard input.',
     )
 
     args = args.parse_args()
 
-    message = DecodedMessage.decode_from_uri(args.fingerprint)
+    if args.fingerprint == '-':
+        uri = sys.stdin.read()
+    elif isfile(args.fingerprint):
+        with open(args.fingerprint) as f:
+            uri = f.read()
+    else:
+        uri = args.fingerprint
+
+    message = DecodedMessage.decode_from_uri(uri.strip())
 
     print(dumps(message.encode_to_json(), indent=4))
 
