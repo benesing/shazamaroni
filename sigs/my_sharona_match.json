@@ -1,37 +1,37 @@
 {
     "matches": [
         {
-            "id": "241677735",
-            "offset": 116.63484375,
-            "timeskew": 0.0027093887,
-            "frequencyskew": 0.0026615858
+            "id": "227980672",
+            "offset": 139.889125,
+            "timeskew": 5.9366226e-05,
+            "frequencyskew": 0.0
         },
         {
-            "id": "227980672",
-            "offset": 116.727515625,
-            "timeskew": 0.0025320053,
-            "frequencyskew": 0.002257824
+            "id": "241677735",
+            "offset": 139.80525,
+            "timeskew": 0.00014066696,
+            "frequencyskew": 0.0
         },
         {
             "id": "305954001",
-            "offset": 116.127515625,
-            "timeskew": 4.839897e-05,
-            "frequencyskew": -0.00020134449
+            "offset": 139.2296875,
+            "timeskew": -0.003190875,
+            "frequencyskew": -0.0029758215
         },
         {
             "id": "235430800",
-            "offset": 116.8893125,
-            "timeskew": 0.0023559332,
-            "frequencyskew": 0.0023386478
+            "offset": 140.05346875,
+            "timeskew": -1.0371208e-05,
+            "frequencyskew": -4.029274e-05
         }
     ],
     "location": {
-        "latitude": -61.81,
-        "longitude": 27.2,
-        "altitude": 158.15,
+        "latitude": -61.06,
+        "longitude": 27.95,
+        "altitude": 158.9,
         "accuracy": 0.01
     },
-    "timestamp": 1794246958846,
+    "timestamp": 1794248046296,
     "timezone": "Europe/Kirov",
     "track": {
         "layout": "5",
