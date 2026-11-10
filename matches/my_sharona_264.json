@@ -1,0 +1,220 @@
+{
+    "matches": [
+        {
+            "id": "241677735",
+            "offset": 212.257,
+            "timeskew": -2.3901463e-05,
+            "frequencyskew": -0.00020134449
+        },
+        {
+            "id": "227980672",
+            "offset": 263.8894375,
+            "timeskew": -5.0604343e-05,
+            "frequencyskew": 0.0
+        },
+        {
+            "id": "305954001",
+            "offset": 211.47296875,
+            "timeskew": -0.0027002096,
+            "frequencyskew": -0.0028553605
+        },
+        {
+            "id": "235430800",
+            "offset": 264.0335,
+            "timeskew": -7.0929527e-06,
+            "frequencyskew": -0.00048315525
+        }
+    ],
+    "location": {
+        "latitude": -49.46,
+        "longitude": 39.55,
+        "altitude": 170.5,
+        "accuracy": 0.01
+    },
+    "timestamp": 1794323790527,
+    "timezone": "Europe/Kirov",
+    "track": {
+        "layout": "5",
+        "type": "MUSIC",
+        "key": "20146784",
+        "title": "My Sharona",
+        "subtitle": "The Knack",
+        "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/0c/15/89/0c15890d-68c7-ba8a-6df8-63e2cc885de0/mzl.pckytzgw.jpg/800x800cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d2/8c/a9/d28ca97f-f577-4bee-fb12-716570d076da/05099922669056.rgb.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d2/8c/a9/d28ca97f-f577-4bee-fb12-716570d076da/05099922669056.rgb.jpg/400x400cc.jpg",
+            "joecolor": "b:4a5154p:f0f1f1s:ede5dft:cfd1d1q:cdc7c3"
+        },
+        "display": {
+            "actions": [
+                {
+                    "name": "display:updateshazam",
+                    "type": "webview",
+                    "uri": "https://www.shazam.com/inapp/updatenow/20146784"
+                }
+            ]
+        },
+        "share": {
+            "subject": "My Sharona - The Knack",
+            "text": "My Sharona par The Knack",
+            "href": "https://www.shazam.com/track/20146784/my-sharona",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d2/8c/a9/d28ca97f-f577-4bee-fb12-716570d076da/05099922669056.rgb.jpg/400x400cc.jpg",
+            "twitter": "J'ai utilisé @Shazam pour découvrir My Sharona par The Knack.",
+            "html": "https://www.shazam.com/snippets/email-share/20146784?lang=fr&country=FR",
+            "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/0c/15/89/0c15890d-68c7-ba8a-6df8-63e2cc885de0/mzl.pckytzgw.jpg/800x800cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/20146784"
+        },
+        "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/android/v5/applemusic_{scalefactor}.png",
+            "actions": [
+                {
+                    "name": "apple",
+                    "type": "applemusicplay",
+                    "id": "716268684"
+                },
+                {
+                    "name": "apple",
+                    "type": "uri",
+                    "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bf/7e/72/bf7e7202-35f4-e081-4219-f802450dd60a/mzaf_16542075049471154751.plus.aac.ep.m4a"
+                }
+            ],
+            "providers": [
+                {
+                    "caption": "Ouvrir dans Spotify",
+                    "images": {
+                        "overflow": "https://images.shazam.com/static/icons/hub/android/v5/spotify-overflow_{scalefactor}.png",
+                        "default": "https://images.shazam.com/static/icons/hub/android/v5/spotify_{scalefactor}.png"
+                    },
+                    "actions": [
+                        {
+                            "name": "hub:spotify:searchdeeplink",
+                            "type": "uri",
+                            "uri": "spotify:search:My%20Sharona%20The%20Knack"
+                        }
+                    ],
+                    "type": "SPOTIFY"
+                },
+                {
+                    "caption": "Ouvrir dans YouTube Music",
+                    "images": {
+                        "overflow": "https://images.shazam.com/static/icons/hub/android/v5/youtubemusic-overflow_{scalefactor}.png",
+                        "default": "https://images.shazam.com/static/icons/hub/android/v5/youtubemusic_{scalefactor}.png"
+                    },
+                    "actions": [
+                        {
+                            "name": "hub:youtubemusic:androiddeeplink",
+                            "type": "uri",
+                            "uri": "https://music.youtube.com/search?q=My+Sharona+The+Knack&feature=shazam"
+                        }
+                    ],
+                    "type": "YOUTUBEMUSIC"
+                },
+                {
+                    "caption": "Ouvrir dans Deezer",
+                    "images": {
+                        "overflow": "https://images.shazam.com/static/icons/hub/android/v5/deezer-overflow_{scalefactor}.png",
+                        "default": "https://images.shazam.com/static/icons/hub/android/v5/deezer_{scalefactor}.png"
+                    },
+                    "actions": [
+                        {
+                            "name": "hub:deezer:searchdeeplink",
+                            "type": "uri",
+                            "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27My+Sharona%27%20artist%3A%27The+Knack%27%7D"
+                        }
+                    ],
+                    "type": "DEEZER"
+                }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC",
+            "options": [
+                {
+                    "caption": "OUVRIR",
+                    "actions": [
+                        {
+                            "name": "hub:applemusic:deeplink",
+                            "type": "intent",
+                            "uri": "intent://music.apple.com/fr/album/my-sharona/716268020?i=716268684&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_android_am&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_android_am#Intent;scheme=http;package=com.apple.android.music;action=android.intent.action.VIEW;end"
+                        },
+                        {
+                            "name": "hub:applemusic:connect",
+                            "type": "applemusicconnect",
+                            "id": "716268684",
+                            "uri": "https://unsupported.shazam.com"
+                        },
+                        {
+                            "name": "hub:applemusic:androidstore",
+                            "type": "uri",
+                            "uri": "https://play.google.com/store/apps/details?id=com.apple.android.music&referrer=utm_source=https%3A%2F%2Fmusic.apple.com%2Fsubscribe%3Fmttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_android_am%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_android_am"
+                        }
+                    ],
+                    "beacondata": {
+                        "type": "open",
+                        "providername": "applemusic"
+                    },
+                    "image": "https://images.shazam.com/static/icons/hub/android/v5/overflow-open-option_{scalefactor}.png",
+                    "type": "open",
+                    "listcaption": "Ouvrir dans Apple Music",
+                    "overflowimage": "https://images.shazam.com/static/icons/hub/android/v5/applemusic-overflow_{scalefactor}.png",
+                    "colouroverflowimage": false,
+                    "providername": "applemusic"
+                }
+            ]
+        },
+        "sections": [
+            {
+                "type": "SONG",
+                "metapages": [
+                    {
+                        "image": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/0c/15/89/0c15890d-68c7-ba8a-6df8-63e2cc885de0/mzl.pckytzgw.jpg/800x800cc.jpg",
+                        "caption": "The Knack"
+                    },
+                    {
+                        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d2/8c/a9/d28ca97f-f577-4bee-fb12-716570d076da/05099922669056.rgb.jpg/400x400cc.jpg",
+                        "caption": "My Sharona"
+                    }
+                ],
+                "tabname": "Titre",
+                "metadata": [
+                    {
+                        "title": "Album",
+                        "text": "Get the Knack"
+                    },
+                    {
+                        "title": "Label",
+                        "text": "Capitol Records"
+                    },
+                    {
+                        "title": "Sorti",
+                        "text": "1979"
+                    }
+                ]
+            },
+            {
+                "type": "RELATED",
+                "url": "https://cdn.shazam.com/shazam/v3/fr/FR/android/-/tracks/track-similarities-id-20146784?startFrom=0&pageSize=20&connected=",
+                "tabname": "Titres similaires"
+            }
+        ],
+        "url": "https://www.shazam.com/track/20146784/my-sharona",
+        "artists": [
+            {
+                "id": "42",
+                "adamid": "6545169"
+            }
+        ],
+        "genres": {
+            "primary": "Pop"
+        },
+        "urlparams": {
+            "{tracktitle}": "My+Sharona",
+            "{trackartist}": "The+Knack"
+        },
+        "highlightsurls": {},
+        "relatedtracksurl": "https://cdn.shazam.com/shazam/v3/fr/FR/android/-/tracks/track-similarities-id-20146784?startFrom=0&pageSize=20&connected=",
+        "albumadamid": "716268020",
+        "isrc": "USCA28900153"
+    },
+    "tagid": "0b8297b3-5ec9-5216-b2d4-b8cdb3a5073d"
+}
