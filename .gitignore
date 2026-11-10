@@ -10,4 +10,3 @@ build/
 *.kate-swp
 .vscode
 .DS_Store
-audio/*.wav
