@@ -44,6 +44,7 @@ songrec-fingerprint-minimize = "songrec.utils.fingerprint_minimize:main"
 songrec-fingerprint-to-csv = "songrec.utils.fingerprint_to_csv:main"
 songrec-fingerprint-to-json = "songrec.utils.fingerprint_to_json:main"
 songrec-fingerprint-to-recognized-song = "songrec.utils.fingerprint_to_recognized_song:main"
+songrec-peaks-to-audio = "songrec.utils.peaks_to_audio:main"
 songrec-fingerprint-to-sound = "songrec.utils.fingerprint_to_sound:main"
 
 [tool.ruff]
