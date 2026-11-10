@@ -1,0 +1,667 @@
+{
+  "input_peaks": 903,
+  "result_peaks": 16,
+  "one_minimal": true,
+  "track_key": "20146784",
+  "queries": [
+    {
+      "query": 1,
+      "phase": "strongest",
+      "num_peaks": 452,
+      "matched": true,
+      "track_key": "20146784",
+      "title": "My Sharona",
+      "matches": [
+        {
+          "id": "227980672",
+          "offset": 11.890091796,
+          "timeskew": 8.9645386e-05,
+          "frequencyskew": -8.0525875e-05
+        },
+        {
+          "id": "241677735",
+          "offset": 11.781702148,
+          "timeskew": 0.0003862381,
+          "frequencyskew": 0.00016105175
+        },
+        {
+          "id": "305954001",
+          "offset": 11.599618163999999,
+          "timeskew": -0.0030927062,
+          "frequencyskew": -0.0035378337
+        },
+        {
+          "id": "235430800",
+          "offset": 12.067498046,
+          "timeskew": -6.2942505e-05,
+          "frequencyskew": -0.00044292212
+        }
+      ]
+    },
+    {
+      "query": 2,
+      "phase": "strongest",
+      "num_peaks": 226,
+      "matched": true,
+      "track_key": "20146784",
+      "title": "My Sharona",
+      "matches": [
+        {
+          "id": "227980672",
+          "offset": 11.89075,
+          "timeskew": 7.6532364e-05,
+          "frequencyskew": 0.0
+        },
+        {
+          "id": "241677735",
+          "offset": 11.782044921,
+          "timeskew": 0.00036644936,
+          "frequencyskew": 0.00024163723
+        },
+        {
+          "id": "305954001",
+          "offset": 11.605348632,
+          "timeskew": -0.0031888485,
+          "frequencyskew": -0.0035378337
+        },
+        {
+          "id": "235430800",
+          "offset": 12.066980468,
+          "timeskew": 0.00011050701,
+          "frequencyskew": -0.00036239624
+        }
+      ]
+    },
+    {
+      "query": 3,
+      "phase": "strongest",
+      "num_peaks": 113,
+      "matched": true,
+      "track_key": "20146784",
+      "title": "My Sharona",
+      "matches": [
+        {
+          "id": "227980672",
+          "offset": 11.890363280999999,
+          "timeskew": 0.00010716915,
+          "frequencyskew": -8.0525875e-05
+        },
+        {
+          "id": "241677735",
+          "offset": 11.783286131999999,
+          "timeskew": 0.0003182888,
+          "frequencyskew": -0.000120818615
+        },
+        {
+          "id": "305954001",
+          "offset": 11.609654296,
+          "timeskew": -0.0034773946,
+          "frequencyskew": -0.0034575462
+        },
+        {
+          "id": "235430800",
+          "offset": 12.066264648,
+          "timeskew": -5.555153e-05,
+          "frequencyskew": -0.0007246733
+        }
+      ]
+    },
+    {
+      "query": 4,
+      "phase": "strongest",
+      "num_peaks": 57,
+      "matched": true,
+      "track_key": "20146784",
+      "title": "My Sharona",
+      "matches": [
+        {
+          "id": "227980672",
+          "offset": 11.891335937,
+          "timeskew": 7.033348e-06,
+          "frequencyskew": -0.00016111135
+        },
+        {
+          "id": "241677735",
+          "offset": 11.784520507,
+          "timeskew": 7.939339e-05,
+          "frequencyskew": -0.00016111135
+        },
+        {
+          "id": "305954001",
+          "offset": 11.604763671,
+          "timeskew": -0.0036586523,
+          "frequencyskew": -0.0035779476
+        },
+        {
+          "id": "235430800",
+          "offset": 12.055899413999999,
+          "timeskew": 0.0012581348,
+          "frequencyskew": -0.00016111135
+        }
+      ]
+    },
+    {
+      "query": 5,
+      "phase": "strongest",
+      "num_peaks": 29,
+      "matched": true,
+      "track_key": "20146784",
+      "title": "My Sharona",
+      "matches": [
+        {
+          "id": "227980672",
+          "offset": 11.892272460000001,
+          "timeskew": -2.002716e-05,
+          "frequencyskew": -0.00026845932
+        },
+        {
+          "id": "241677735",
+          "offset": 11.786361328000002,
+          "timeskew": 3.4570694e-05,
+          "frequencyskew": 8.058548e-05
+        }
+      ]
+    },
+    {
+      "query": 6,
+      "phase": "strongest",
+      "num_peaks": 15,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 7,
+      "phase": "strongest",
+      "num_peaks": 22,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 8,
+      "phase": "strongest",
+      "num_peaks": 26,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 9,
+      "phase": "strongest",
+      "num_peaks": 28,
+      "matched": true,
+      "track_key": "20146784",
+      "title": "My Sharona",
+      "matches": [
+        {
+          "id": "227980672",
+          "offset": 11.892206054,
+          "timeskew": -4.23193e-06,
+          "frequencyskew": -0.0003221631
+        }
+      ]
+    },
+    {
+      "query": 10,
+      "phase": "strongest",
+      "num_peaks": 27,
+      "matched": true,
+      "track_key": "20146784",
+      "title": "My Sharona",
+      "matches": [
+        {
+          "id": "227980672",
+          "offset": 11.892014648,
+          "timeskew": -2.43783e-05,
+          "frequencyskew": -0.0003221631
+        }
+      ]
+    },
+    {
+      "query": 11,
+      "phase": "chunk13",
+      "num_peaks": 14,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 12,
+      "phase": "chunk13",
+      "num_peaks": 14,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 13,
+      "phase": "chunk13",
+      "num_peaks": 26,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 14,
+      "phase": "chunk6",
+      "num_peaks": 21,
+      "matched": true,
+      "track_key": "20146784",
+      "title": "My Sharona",
+      "matches": [
+        {
+          "id": "227980672",
+          "offset": 11.895625976,
+          "timeskew": -0.0006632209,
+          "frequencyskew": -0.0003221631
+        }
+      ]
+    },
+    {
+      "query": 15,
+      "phase": "chunk6",
+      "num_peaks": 15,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 16,
+      "phase": "chunk6",
+      "num_peaks": 15,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 17,
+      "phase": "chunk6",
+      "num_peaks": 15,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 18,
+      "phase": "chunk6",
+      "num_peaks": 18,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 19,
+      "phase": "chunk3",
+      "num_peaks": 18,
+      "matched": true,
+      "track_key": "20146784",
+      "title": "My Sharona",
+      "matches": [
+        {
+          "id": "227980672",
+          "offset": 11.898591796,
+          "timeskew": -0.00082474947,
+          "frequencyskew": -0.0003221631
+        }
+      ]
+    },
+    {
+      "query": 20,
+      "phase": "chunk3",
+      "num_peaks": 15,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 21,
+      "phase": "chunk3",
+      "num_peaks": 15,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 22,
+      "phase": "chunk3",
+      "num_peaks": 15,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 23,
+      "phase": "chunk3",
+      "num_peaks": 15,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 24,
+      "phase": "chunk3",
+      "num_peaks": 15,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 25,
+      "phase": "chunk1",
+      "num_peaks": 17,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 26,
+      "phase": "chunk1",
+      "num_peaks": 17,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 27,
+      "phase": "chunk1",
+      "num_peaks": 17,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 28,
+      "phase": "chunk1",
+      "num_peaks": 17,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 29,
+      "phase": "chunk1",
+      "num_peaks": 17,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 30,
+      "phase": "chunk1",
+      "num_peaks": 17,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 31,
+      "phase": "chunk1",
+      "num_peaks": 17,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 32,
+      "phase": "chunk1",
+      "num_peaks": 17,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 33,
+      "phase": "chunk1",
+      "num_peaks": 17,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 34,
+      "phase": "chunk1",
+      "num_peaks": 17,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 35,
+      "phase": "chunk1",
+      "num_peaks": 17,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 36,
+      "phase": "chunk1",
+      "num_peaks": 17,
+      "matched": true,
+      "track_key": "20146784",
+      "title": "My Sharona",
+      "matches": [
+        {
+          "id": "227980672",
+          "offset": 11.898226562,
+          "timeskew": -0.0007998347,
+          "frequencyskew": -0.0003221631
+        }
+      ]
+    },
+    {
+      "query": 37,
+      "phase": "chunk1",
+      "num_peaks": 16,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 38,
+      "phase": "chunk1",
+      "num_peaks": 16,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 39,
+      "phase": "chunk1",
+      "num_peaks": 16,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 40,
+      "phase": "chunk1",
+      "num_peaks": 16,
+      "matched": true,
+      "track_key": "20146784",
+      "title": "My Sharona",
+      "matches": [
+        {
+          "id": "227980672",
+          "offset": 11.898254882,
+          "timeskew": -0.00080293417,
+          "frequencyskew": -0.0003221631
+        }
+      ]
+    },
+    {
+      "query": 41,
+      "phase": "chunk1",
+      "num_peaks": 15,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 42,
+      "phase": "chunk1",
+      "num_peaks": 15,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 43,
+      "phase": "chunk1",
+      "num_peaks": 15,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 44,
+      "phase": "chunk1",
+      "num_peaks": 15,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 45,
+      "phase": "chunk1",
+      "num_peaks": 15,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 46,
+      "phase": "chunk1",
+      "num_peaks": 15,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 47,
+      "phase": "chunk1",
+      "num_peaks": 15,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 48,
+      "phase": "chunk1",
+      "num_peaks": 15,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 49,
+      "phase": "chunk1",
+      "num_peaks": 15,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 50,
+      "phase": "chunk1",
+      "num_peaks": 15,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 51,
+      "phase": "chunk1",
+      "num_peaks": 15,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 52,
+      "phase": "chunk1",
+      "num_peaks": 15,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 53,
+      "phase": "chunk1",
+      "num_peaks": 15,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 54,
+      "phase": "chunk1",
+      "num_peaks": 15,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 55,
+      "phase": "chunk1",
+      "num_peaks": 15,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    },
+    {
+      "query": 56,
+      "phase": "chunk1",
+      "num_peaks": 15,
+      "matched": false,
+      "track_key": null,
+      "title": null,
+      "matches": []
+    }
+  ]
+}
