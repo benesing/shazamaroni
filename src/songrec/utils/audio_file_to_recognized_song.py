@@ -31,6 +31,15 @@ def main():
     )
 
     args.add_argument('input_file', help='The .WAV or .MP3 file to recognize.')
+    args.add_argument(
+        '-s',
+        '--start',
+        type=float,
+        default=None,
+        help='Offset in seconds where the signature should start. '
+        + 'Defaults to the middle of the song for files longer than 36 seconds, '
+        + 'otherwise the beginning.',
+    )
 
     args = args.parse_args()
 
@@ -53,7 +62,15 @@ def main():
     # substantial bit of music to provide.
 
     signature_generator.MAX_TIME_SECONDS = 12
-    if audio.duration_seconds > 12 * 3:
+    if args.start is not None:
+        if args.start < 0 or args.start >= audio.duration_seconds:
+            stderr.write(
+                'Error: --start must be between 0 and %g seconds\n'
+                % audio.duration_seconds
+            )
+            sys.exit(1)
+        signature_generator.samples_processed += int(16000 * args.start)
+    elif audio.duration_seconds > 12 * 3:
         signature_generator.samples_processed += 16000 * (
             int(audio.duration_seconds / 2) - 6
         )
